@@ -1,0 +1,13 @@
+{
+  "name": "til-daily",
+  "version": "1.0.0",
+  "description": "Send a daily Trello task from my TIL programming board",
+  "main": "handler.js",
+  "author": "Jason Sooter",
+  "license": "ISC",
+  "dependencies": {
+    "lodash.random": "^3.2.0",
+    "request": "^2.88.0",
+    "twilio": "^3.33.3"
+  }
+}
