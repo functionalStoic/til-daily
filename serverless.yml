@@ -30,5 +30,7 @@ functions:
       TRELLO_BOARD_ID: ${ssm:TRELLO_BOARD_ID}
       TWILIO_SID: ${ssm:TWILIO_SID}
       TWILIO_TOKEN: ${ssm:TWILIO_TOKEN}
+      MY_PHONE_NUMBER: ${ssm:MY_PHONE_NUMBER}
+      TWILIO_PHONE_NUMBER: ${ssm:TWILIO_PHONE_NUMBER}
     events:
        - schedule: cron(0 1,15 * * ? *)
